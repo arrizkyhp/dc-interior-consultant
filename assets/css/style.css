@@ -142,6 +142,8 @@ main .main__content .main__content__link {
   position: relative;
   padding-right: 30px;
   width: fit-content;
+
+  transition: all 0.4s ease-in-out;
 }
 
 main .main__content .main__content__link::after {
@@ -151,6 +153,10 @@ main .main__content .main__content__link::after {
   top: 2px;
   right: 0;
   font-size: 20px;
+}
+
+main .main__content .main__content__link:hover {
+  transform: translate(20px, 0);
 }
 
 .main__hero {
